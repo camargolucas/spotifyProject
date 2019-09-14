@@ -1,0 +1,24 @@
+<mat-card class="example-card">
+    <div class="album-image">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    </div>
+    <mat-card-content>
+
+
+    </mat-card-content>
+
+</mat-card>
+
+
+
+<mat-list class="header-list">
+    <mat-list-item> Musica </mat-list-item>
+    <mat-list-item> Autor </mat-list-item>
+    <mat-list-item> Tempo </mat-list-item>
+</mat-list>
+<mat-divider></mat-divider>
+<mat-list *ngFor="let music of musics" class="music-list">
+    <mat-list-item> {{music.name}} </mat-list-item>
+    <mat-list-item> {{music.autor}}</mat-list-item>
+    <mat-list-item> {{music.time}}</mat-list-item>
+</mat-list>
