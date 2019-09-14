@@ -28,8 +28,18 @@
     margin-left: 3%;
     margin-top: 3%;
     margin-right: 3%;
-    max-width: 200px;
+    display: flex;
+    
    
+  }
+
+  .display-buttons button {
+  margin-right: 4%;
+}
+  
+
+  .album-details{
+      margin-left: 5%;
   }
   
   .example-header-image {
